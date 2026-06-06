@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chicle&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=M+PLUS+Code+Latin:wght@100..700&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
-   --background-tint: rgb(166, 122, 65);
+   --background-tint: rgb(201, 163, 114);
    --accent-color-dark: #5534a0;
    --accent-color-light: #5543a0;
    --text-color: rgb(248, 243, 189);
@@ -17,7 +17,7 @@
 }
 
 body {
-   background-image: url('../image/background.png');
+   background-image: url('background.png');
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -165,7 +165,7 @@ ul {
    text-decoration: none;
    font-size: x-large;
    animation-name: link-fade-out;
-   animation-duration: 1s;
+   animation-duration: 3s;
    animation-timing-function: ease;
 }
 
