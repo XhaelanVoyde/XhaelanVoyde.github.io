@@ -15,7 +15,7 @@ navigator.className = "navigator";
 document.body.prepend(navigator);
 
 function loadXhaelanHeadImage() {
-   const xhaelan_skin_image_source = "https://textures.minecraft.net/texture/d95bdefe83b0e902ea5f795f99d24d1cdb5e09ad1b923c2eb03ae51f06b49058"
+   const xhaelan_skin_image_source = "https://textures.minecraft.net/texture/a7aa31956eb7ea96746028fec3dc314765fe588a5558a3e25b0d31183bab6036"
    const xhaelan_head_image_container = document.createElement('div');
    const xhaelan_head_image = document.createElement('img');
    xhaelan_head_image.src = xhaelan_skin_image_source
@@ -29,7 +29,7 @@ function addNavigatorLink(name, url) {navigator.innerHTML += `<a href="${url}"> 
 createMobileErrorLayer();
 addNavigatorLink("Home", "index.html");
 addNavigatorLink("Platforms", "platforms.html");
-addNavigatorLink("Learn Commands", "coming_soon.html");
+addNavigatorLink("Learn Commands", "404.html");
 addNavigatorLink("Minecraft", "minecraft.html");
-addNavigatorLink("Hytale", "coming_soon.html");
+addNavigatorLink("Hytale", "404.html");
 loadXhaelanHeadImage();

@@ -242,6 +242,7 @@ ul {
    text-align: center;
    padding-top: 50%;
    font-size: 300%;
+   z-index: 20;
 }
 
 @media (min-width: 1024px) {
