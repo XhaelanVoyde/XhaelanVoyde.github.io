@@ -1,0 +1,9 @@
+<svg title="SkinMC" width="36" height="36" viewBox="0 0 36 36" fill="white" xmlns="http://www.w3.org/2000/svg" class="svg-logo logo-icon">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6L5 0H5.21379H36V30.7862V31L31 36H0V6ZM33.5172 2.48276H7.69655V28.3034H33.5172V2.48276Z" class="svg-logo-bg"></path>
+        <g class="svg-logo-top">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M36 0H5V31H36V0ZM33 3H8V28H33V3Z"></path>
+            <path d="M26 17H15V24H18V21.5H23V24H26V17Z"></path>
+            <path d="M18 14H23V17H18V14Z"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 8H18V14H12V8ZM23 14V8H29V14H23Z" class="logo-eye"></path>
+        </g>
+</svg>

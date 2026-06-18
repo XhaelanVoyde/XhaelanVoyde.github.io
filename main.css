@@ -192,15 +192,29 @@ ul {
    border-radius: 1em;
    width: 90vw;
    align-content: center;
+   align-items: center;
    text-align: left;
    padding: 1em;
    margin-bottom: 50px;
    margin-top: 20px;
    outline-style:dotted;
    box-shadow: var(--box-shadow-preset);
+   display: flex;
 }
 
-.link-card h1 {
+.link-card-desc {
+   display: flex;
+   flex-direction: column;
+}
+
+.feature-icon {
+   width: 6vw;
+   height: 6vw;
+   border-radius: 8px;
+   margin-right: 40px;
+}
+
+.link-card-desc h1 {
    font-size: 2vw;
    font-family: 'Chicle';
    margin: 0;
@@ -217,8 +231,11 @@ ul {
    border-radius: 10px;
    text-decoration: none;
    float: right;
-   margin-left: 20px;
+   margin-left: auto;
+   margin-right: 0.25%;
+   flex-shrink: 0;
    font-weight: lighter;
+   align-self: last baseline;
 }
 
 .link-card a:hover {
