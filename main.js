@@ -15,7 +15,7 @@ navigator.className = "navigator";
 document.body.prepend(navigator);
 
 function loadXhaelanHeadImage() {
-   const xhaelan_skin_image_source = "https://textures.minecraft.net/texture/a7aa31956eb7ea96746028fec3dc314765fe588a5558a3e25b0d31183bab6036"
+   const xhaelan_skin_image_source = "https://api.mineatar.io/face/6548d6ffd38945ea97152d43aba5cd58?scale=32"
    const xhaelan_head_image_container = document.createElement('div');
    const xhaelan_head_image = document.createElement('img');
    xhaelan_head_image.src = xhaelan_skin_image_source
@@ -24,12 +24,21 @@ function loadXhaelanHeadImage() {
    xhaelan_head_image_container.prepend(xhaelan_head_image);
 }
 
+function loadXhaelanHeadImage_forIcon() {
+   const head_icon_element = document.createElement('link');
+   head_icon_element.href = "https://api.mineatar.io/face/6548d6ffd38945ea97152d43aba5cd58?scale=32";
+   head_icon_element.type = "image/png";
+   head_icon_element.rel = "icon";
+   document.head.appendChild(head_icon_element);
+}
+
 function addNavigatorLink(name, url) {navigator.innerHTML += `<a href="${url}"> •${name}• </a>`;}
 
 createMobileErrorLayer();
-addNavigatorLink("Home", "index.html");
-addNavigatorLink("Platforms", "platforms.html");
-addNavigatorLink("Learn Commands", "learn.html");
-addNavigatorLink("Minecraft", "minecraft.html");
-addNavigatorLink("Hytale", "hytale.html");
+addNavigatorLink("Home", "https://xhaelanvoyde.github.io");
+addNavigatorLink("Platforms", "https://xhaelanvoyde.github.io/platforms");
+addNavigatorLink("Learn Commands", "https://xhaelanvoyde.github.io/learn");
+addNavigatorLink("Minecraft", "https://xhaelanvoyde.github.io/minecraft");
+addNavigatorLink("Hytale", "https://xhaelanvoyde.github.io/hytale");
 loadXhaelanHeadImage();
+loadXhaelanHeadImage_forIcon();
